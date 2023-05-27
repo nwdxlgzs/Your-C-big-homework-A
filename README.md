@@ -17,9 +17,9 @@
 > 前提：使用的MinGW64！所以请安装好。安装路径和工程路径一定不能包含中文
 
 - `.vscode/tasks.json`
-> `"D:\\Program Files\\CodeBlocks\\MinGW\\bin\\gcc.exe"`更换你自己MinGW的gcc.exe路径
+> `D:\\Program Files\\CodeBlocks\\MinGW\\bin\\gcc.exe`更换你自己MinGW的gcc.exe路径
 > 
-> `"D:\\Program Files\\CodeBlocks\\MinGW\\bin"`更换你自己MinGW的bin路径（gcc.exe所在文件夹）
+> `D:\\Program Files\\CodeBlocks\\MinGW\\bin`更换你自己MinGW的bin路径（gcc.exe所在文件夹）
 ```json
 {
     "tasks": [
@@ -53,7 +53,7 @@
 ```
 
 - `.vscode/launch.json`
-> `"D:\\Program Files\\CodeBlocks\\MinGW\\bin\\gdb.exe"`更换你自己MinGW的gdb.exe路径
+> `D:\\Program Files\\CodeBlocks\\MinGW\\bin\\gdb.exe`更换你自己MinGW的gdb.exe路径
 ```json
 {
   "version": "0.2.0",
@@ -126,7 +126,7 @@
 ```
 
 - `.vscode/c_cpp_properties.json`
-> `"D:\\Program Files\\CodeBlocks\\MinGW\\bin\\gdb.exe"`更换你自己MinGW的gdb.exe路径
+> `D:/Program Files/CodeBlocks/MinGW/bin/gcc.exe`更换你自己MinGW的gdb.exe路径
 ```json
 {
     "configurations": [
