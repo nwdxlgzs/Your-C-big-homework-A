@@ -152,7 +152,7 @@
 ## VSCode编译的exe没有暂停问题（运行完就退出）
 > 在main函数最下方（return上方）加入：`system("pause");`即可（手动调用命令行中端暂停）
 
-
+# 文档：
 
 ### 工具类函数库 [文档](https://github.com/nwdxlgzs/Your-C-big-homework-A/blob/main/CommonUtil.MD)
 
